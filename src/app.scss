@@ -7,6 +7,19 @@ body {
   direction: ltr;
   background-color: aquamarine;
 
-  #app {
+  app {
+    max-width: 980px;
+    margin: auto;
+    padding: 0 15px;
+    text-align: center;
+  }
+  .container {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px -5px #555;
+    max-width: 350px;
+    padding: 20px;
+    text-align: left;
+    margin: 50px auto;
   }
 }
